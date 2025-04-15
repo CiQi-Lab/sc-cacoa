@@ -1,11 +1,11 @@
 [![<kharchenkolab>](https://circleci.com/gh/kharchenkolab/cacoa.svg?style=svg)](https://app.circleci.com/pipelines/github/kharchenkolab/cacoa)
 
 
-# cacoa
+# sc-cacoa
 
 Case-Control Analysis of scRNA-seq experiments
 
-The package implements methods described in [this pre-print](https://doi.org/10.1101/2022.03.15.484475). 
+The package implements methods described in [this pre-print](https://doi.org/10.1101/2022.03.15.484475) updated from the cacoa package to use with Seurat based bioinformatic pipelines 
 To reproduce results from the paper, please see [this repository](https://github.com/kharchenkolab/cacoaAnalysis).
 
 ## Installation
@@ -14,7 +14,7 @@ To install the latest version, use:
 
 ```r
 install.packages('devtools')
-devtools::install_github('kharchenkolab/cacoa')
+devtools::install_github('CiQi-Lab/sc-cacoa')
 ```
 
 Prior to installing the package, dependencies have to be installed:
